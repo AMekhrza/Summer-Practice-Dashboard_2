@@ -1,0 +1,53 @@
+# ===================================
+# SERVER-SPECIFIC .gitignore
+# ===================================
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Database files
+*.mongodb
+*.sqlite
+*.sqlite3
+*.db
+
+# Uploads and user-generated content
+uploads/
+public/uploads/
+temp/
+
+# JWT keys and certificates
+*.pem
+*.key
+*.crt
+jwt.key
+
+# Configuration files with sensitive data
+config/keys.js
+config/production.json
+secrets.json
+
+# Cache
+.cache/
+.npm/
+
+# Testing
+coverage/
+test-results/
+
+# Build files
+build/
+dist/

@@ -1,0 +1,56 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# ====== ENVIRONMENT VARIABLES (SENSITIVE) ======
+# All environment files
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.env.production
+.env.staging
+
+# Backup or copy files that might contain sensitive data
+*.env.backup
+*.env copy.*
+.env copy.*
+
+# Configuration files with API keys
+config.js
+config.json
+keys.js
+secrets.json
+
+# ====== MISC ======
+.DS_Store
+
+# ====== LOGS ======
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ====== CACHE ======
+.eslintcache
+
+# ====== TEMPORARY FILES ======
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ====== BACKUP FILES ======
+*.backup
+*.bak
