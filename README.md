@@ -39,7 +39,7 @@ A full-stack admin dashboard built with **MERN Stack** (MongoDB, Express.js, Rea
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/AMekhrza/MERN-React-Admin-Dashboard_2.git
+   git clone https://github.com/AMekhrza/Summer-Practice-Dashboard_2.git
    cd MERN-React-Admin-Dashboard-main
    ```
 
